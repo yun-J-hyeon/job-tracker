@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "settings": {
+    "weeklyGoalHours": 10,
+    "areas": ["게임기획", "시장분석", "게임엔진", "AI도구", "기타"],
+    "restDays": [0],
+    "remind": { "times": ["20:00", "22:00"], "text": "오늘 기록 0분. 스트릭이 끊겨요!" }
+  },
+  "projects": [
+    {
+      "id": "p-unity-book",
+      "name": "유니티 책 떼기",
+      "type": "공부",
+      "area": "게임엔진",
+      "status": "진행",
+      "start": "2026-09-10",
+      "end": "",
+      "progress": 20,
+      "tags": ["Unity", "C#"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [],
+      "retro": ""
+    },
+    {
+      "id": "p-mobileindex",
+      "name": "모바일 게임 순위 분석",
+      "type": "분석",
+      "area": "시장분석",
+      "status": "완료",
+      "start": "2026-09-03",
+      "end": "2026-10-29",
+      "progress": 100,
+      "tags": ["모바일인덱스", "순위분석"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [{ "label": "분석 회차", "value": 3, "unit": "회" }],
+      "retro": ""
+    },
+    {
+      "id": "p-nikke",
+      "name": "니케 4주년 매출순위 보고서",
+      "type": "분석",
+      "area": "시장분석",
+      "status": "완료",
+      "start": "",
+      "end": "",
+      "progress": 100,
+      "tags": ["니케", "매출분석"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [],
+      "retro": ""
+    },
+    {
+      "id": "p-swordstaff",
+      "name": "소드x스태프 콜라보 과금분석",
+      "type": "분석",
+      "area": "시장분석",
+      "status": "진행",
+      "start": "2026-11-12",
+      "end": "",
+      "progress": 40,
+      "tags": ["과금분석", "콜라보"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [],
+      "retro": ""
+    },
+    {
+      "id": "p-trickcal",
+      "name": "트릭컬 바이브 재미요소 분석",
+      "type": "분석",
+      "area": "게임기획",
+      "status": "완료",
+      "start": "",
+      "end": "",
+      "progress": 100,
+      "tags": ["트릭컬", "재미요소"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [],
+      "retro": ""
+    },
+    {
+      "id": "p-puzzle",
+      "name": "퍼즐게임 기획",
+      "type": "기획",
+      "area": "게임기획",
+      "status": "진행",
+      "start": "",
+      "end": "",
+      "progress": 30,
+      "tags": ["퍼즐", "기획서"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [],
+      "retro": ""
+    },
+    {
+      "id": "p-agent",
+      "name": "MCP와 에이전트 오케스트레이션",
+      "type": "공부",
+      "area": "AI도구",
+      "status": "진행",
+      "start": "",
+      "end": "",
+      "progress": 50,
+      "tags": ["MCP", "에이전트"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [],
+      "retro": ""
+    },
+    {
+      "id": "p-tracker",
+      "name": "취업 정량 사이트",
+      "type": "개발",
+      "area": "기타",
+      "status": "진행",
+      "start": "2026-11-19",
+      "end": "",
+      "progress": 10,
+      "tags": ["HTML", "JS", "PWA"],
+      "links": { "github": "", "demo": "" },
+      "metrics": [],
+      "retro": ""
+    }
+  ],
+  "logs": [
+    { "date": "2026-09-10", "projectId": "p-unity-book", "minutes": 35, "note": "1장 유니티 준비하기" }
+  ]
+}
